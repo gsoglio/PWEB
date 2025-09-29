@@ -1,0 +1,88 @@
+body {
+	font: 150% Arial, Helvetica, sans-serif;
+}
+
+
+.container-box {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.a {
+    grid-area: a;
+    text-align: center;
+}
+@media screen and (min-width: 1921px){
+	.container-box{
+		background-color: green;
+	}
+
+	h2::before{
+		content: "Verde";
+	}
+
+}
+
+@media screen and (max-width: 1920px){
+	.container-box{
+		background-color: yellow;
+	}
+		h2::before{
+		content: "Amarelo";
+	}
+}
+
+@media screen and (max-width: 1366px){
+	.container-box{
+		background-color: blueviolet;
+	}
+		h2::before{
+		content: "Violeta";
+	}
+}
+
+
+@media screen and (max-width: 1080px){
+	.container-box{
+		background-color: red;
+	}
+		h2::before{
+		content: "Vermelho";
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.container-box{
+		background-color: pink;
+	}
+		h2::before{
+		content: "Rosa";
+	}
+
+}
+
+
+@media screen and (max-width: 768px) {
+	.container-box{
+		background-color: orange;
+	}
+		h2::before{
+		content: "Laranja";
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	.container-box{
+		background-color: darkblue;
+	}
+		h2::before{
+		content: "Azul-Marinho";
+	}
+
+}
